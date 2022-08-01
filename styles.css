@@ -1,6 +1,7 @@
 * {
     background-color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
+    /* margin-left: 10% */
 
 }
 
@@ -122,7 +123,10 @@ img {
 @media screen and (max-width: 1400px) {
     
     .container {
-
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     
     img {
@@ -131,7 +135,7 @@ img {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     
     .left{
         padding: auto;
@@ -140,5 +144,12 @@ img {
     img {
         max-width: 0%;
         height: auto;
+    }
+
+    .container {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
